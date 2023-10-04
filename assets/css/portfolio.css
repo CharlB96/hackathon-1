@@ -18,6 +18,7 @@
     margin: auto;
     text-align: center;   
     padding: 1.7rem;
+    margin-bottom: 1rem;
 }
 
 .artist-portfolio-content {
@@ -42,4 +43,34 @@
     font-size: 2rem;
     display: flex;
     justify-content: space-around;
+}
+
+
+
+
+/* Cards */
+
+
+
+
+.art-display-container {
+    align-content: center;
+    justify-content: center;
+    display: center;
+    width: 100%;
+}
+
+.art-card {
+    background-color: #ced5db;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.art-card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.art-card-info {
+    padding: 0.25rem;
 }
