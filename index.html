@@ -18,7 +18,7 @@
             </div>
 
             <!--Navbar-->
-            <div class="col-5 col-md-6 no-gutters">
+            <nav class="d-none d-sm-block col-sm-4 col-md-6 no-gutters">
                 <ul class="list-inline nav ml-auto">
                     <li class="col list-inline-item">
                         <a href="index.html" aria-label="Go to our home page"><span>Home</span></a>
@@ -33,10 +33,69 @@
                         <a href="contact.html" aria-label="Contact us"><span>Contact</span></a>
                     </li>
                 </ul>
-            </div>
+            </nav>
+            <nav class="d-sm-none col-5 d-flex justify-content-center">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Browse
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" aria-label="Home page" href="index.html">Home</a></li>
+                        <li><a class="dropdown-item" aria-label="Visit our gallery" href="gallery.html">gallery</a></li>
+                        <li><a class="dropdown-item" aria-label="Checkout your items" href="checkout.html">checkout</a></li>
+                        <li><a class="dropdown-item" aria-label="Contact us" href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
 
     </header>
+
+
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">
+                    Website Designed by PEBCAK
+                </p>
+            </div>
+
+            </div>
+            <!--------------------Social media links------------------------>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a href="http://www.facebook.com/" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="http://www.twitter.com" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="http://www.instagram.com" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://youtube.com/" target="_blank">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
 
 
 
