@@ -53,6 +53,10 @@
 /* Cards */
 
 
+.artist-portfolio-card-container {
+    display: flex;
+}
+
 .art-display-container {
     display: center;
     width: 100%;
