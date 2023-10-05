@@ -15,46 +15,33 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!--Header-->
-    <header class="container-fluid no-gutters">
-        <div class="row no-gutters">
-            <div class="col-7 col-md-6">
-                <h1>Arting Around</h1>
-            </div>
-
-            <!--Navbar-->
-            <nav class="d-none d-sm-block col-sm-4 col-md-6 no-gutters">
-                <ul class="list-inline nav ml-auto">
-                    <li class="col list-inline-item">
-                        <a href="index.html" aria-label="Go to our home page"><span>Home</span></a>
-                    </li>
-                    <li class="col list-inline-item">
-                        <a href="gallery.html" aria-label="Take a look at our gallery"><span>Gallery</span></a>
-                    </li>
-                    <li class="col list-inline-item">
-                        <a href="checkout.html" aria-label="Checkout your items"><span>Checkout</span></a>
-                    </li>
-                    <li class="col list-inline-item">
-                        <a href="contact.html" aria-label="Contact us"><span>Contact</span></a>
-                    </li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h1>Arting Around</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link"  aria-label="link to homepage" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="gallery.html" aria-label="Visit our gallery" aria-current="page">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-label="Checkout your items" href="checkout.html">Checkout</a>
+                  </li>
                 </ul>
-            </nav>
-            <nav class="d-sm-none col-5 d-flex justify-content-center">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Browse
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" aria-label="Home page" href="index.html">Home</a></li>
-                        <li><a class="dropdown-item" aria-label="Visit our gallery" href="gallery.html">gallery</a></li>
-                        <li><a class="dropdown-item" aria-label="Checkout your items" href="checkout.html">checkout</a>
-                        </li>
-                        <li><a class="dropdown-item" aria-label="Contact us" href="contact.html">contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light btn-sm" type="submit">Search</button>
+                </form>
+                <a href="signed-in.html" class="btn btn-outline-light mx-md-4 mt-sm-2 mt-md-0">Sign in</a>
+              </div>
+            </div>
+        </nav>
     </header>
 
     <hr>
@@ -82,9 +69,9 @@
 
     <hr>
     <!--Carousel-->
-    <div class="container-fluid bg-info pb-5">
+    <div class="container-fluid pb-5">
         <h1 class="text-center my-5">Trending</h1>
-        <div id="carouselExample" class="carousel slide">
+        <div id="carousel1" class="carousel slide">
             <div class="carousel-inner my-5">
                 <!-- item -->
                 <div class="carousel-item active">
@@ -95,12 +82,19 @@
                                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
                                         class="card-img-top" alt="Waterfall">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h5 class="card-title">Cascading Beauty</h5>
                                         <p class="card-text">
-                                            Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.
+                                            Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                            facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                            bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                            dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                            facilisis vel.
                                         </p>
-                                        <a href="#!" class="btn btn-primary">Button</a>
+                                        <div class="col">
+                                            <img src="./assets/images/artist-pic.jpg"
+                                                alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                            <a href="artist-portfolio.html" class="btn btn-outline-info mx-auto pl-3">Emma Perkins</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -110,12 +104,19 @@
                                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
                                         class="card-img-top" alt="Sunset Over the Sea">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h5 class="card-title">Tranquility</h5>
                                         <p class="card-text">
-                                            Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.
+                                            Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                            facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                            bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                            dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                            facilisis vel.
                                         </p>
-                                        <a href="#!" class="btn btn-primary">Button</a>
+                                        <div class="col">
+                                            <img src="./assets/images/artist-pic.jpg"
+                                                alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                            <a href="artist-portfolio.html" class="btn btn-outline-info mx-auto pl-3">Emma Perkins</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -125,12 +126,19 @@
                                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
                                         class="card-img-top" alt="Sunset over the Sea">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h5 class="card-title">Eternal Embrace</h5>
                                         <p class="card-text">
-                                            Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.
+                                            Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                            facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                            bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                            dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                            facilisis vel.
                                         </p>
-                                        <a href="#!" class="btn btn-primary">Button</a>
+                                        <div class="col">
+                                            <img src="./assets/images/artist-pic.jpg"
+                                                alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                            <a href="artist-portfolio.html" class="btn btn-outline-info mx-auto pl-3">Emma Perkins</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +146,7 @@
                     </div>
                 </div>
                 <!-- item -->
-                <div class="carousel-item">
+                <div class="carousel-item ">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-12">
@@ -146,12 +154,19 @@
                                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
                                         class="card-img-top" alt="Fissure in Sandstone">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h5 class="card-title">Cave Hole</h5>
                                         <p class="card-text">
-                                            Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.
+                                            Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                            facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                            bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                            dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                            facilisis vel.
                                         </p>
-                                        <a href="#!" class="btn btn-primary">Button</a>
+                                        <div class="col">
+                                            <img src="./assets/images/artist-pic.jpg"
+                                                alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                            <a href="artist-portfolio.html" class="btn btn-outline-info mx-auto pl-3">Emma Perkins</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -161,12 +176,19 @@
                                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
                                         class="card-img-top" alt="Storm Clouds">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h5 class="card-title">Dramatic Clouds</h5>
                                         <p class="card-text">
-                                            Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.
+                                            Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                            facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                            bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                            dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                            facilisis vel.
                                         </p>
-                                        <a href="#!" class="btn btn-primary">Button</a>
+                                        <div class="col">
+                                            <img src="./assets/images/artist-pic.jpg"
+                                                alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                            <a href="artist-portfolio.html" class="btn btn-outline-info mx-auto pl-3">Emma Perkins</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -176,12 +198,19 @@
                                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
                                         class="card-img-top" alt="Hot Air Balloons">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <h5 class="card-title">Up, up and away</h5>
                                         <p class="card-text">
-                                            Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.
+                                            Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                            facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                            bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                            dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                            facilisis vel.
                                         </p>
-                                        <a href="#!" class="btn btn-primary">Button</a>
+                                        <div class="col">
+                                            <img src="./assets/images/artist-pic.jpg"
+                                                alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                            <a href="artist-portfolio.html" class="btn btn-outline-info mx-auto pl-3">Emma Perkins</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -189,17 +218,19 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev btn-outline-secondary" type="button" data-bs-target="#carouselExample"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next btn-outline-secondary" type="button" data-bs-target="#carouselExample"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-label="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+<!-- Carousel controls -->
+        <div class="text-center pb-5">
+            <span>
+                <i class="fa-solid fa-backward fa-lg mx-3" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="visually-hidden">Previous</span>
+                </i>
+                <i class="fa-solid fa-forward fa-lg mx-3" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="visually-hidden">Next</span>
+                </i>
+            </span>
+        </div>
+
         <div class="d-grid gap-2">
             <button class="btn btn-light btn-lg col-6 mb-5 mx-auto" type="button" aria-label="See more">See
                 More</button>
