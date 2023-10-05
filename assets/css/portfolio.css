@@ -6,6 +6,10 @@
     border: 0;
 }
 
+nav {
+    margin-bottom: 6.5rem;
+}
+
 .artist-portfolio-card {
     background-color: #ced5db;
     border-radius: 8px;
