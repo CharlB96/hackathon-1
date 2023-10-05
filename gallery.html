@@ -11,19 +11,19 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/gallery.css">
-    <title>Search</title>
+    <title>Gallery</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar--styling">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <h1 class="">Arting Around</h1>
+                    <h1 class="logo">Arting Around</h1>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler burger-button" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,25 +31,33 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link uppercase" aria-label="link to homepage" href="index.html">Home</a>
+                            <a class="nav-link uppercase nav-links" aria-label="link to homepage" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link uppercase active" href="gallery.html" aria-label="Visit our gallery"
+                            <a class="nav-link uppercase nav-links-active" href="gallery.html" aria-label="Visit our gallery"
                                 aria-current="page">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link uppercase" aria-label="Checkout your items" href="checkout.html">Checkout</a>
+                            <a class="nav-link uppercase nav-links" aria-label="Checkout your items" href="checkout.html">Checkout</a>
                         </li>
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-light btn-sm uppercase mx-md-4" type="submit">Search</button>
+                        <button class="btn nav-bar-button uppercase mx-md-4" type="submit">Search</button>
                     </form>
-                    <a href="signed-in.html" class="btn btn-outline-light mx-md-4 mt-sm-2 mt-md-0 uppercase" aria-label="sign in">Sign in</a>
+                    <a href="signed-in.html" class="btn nav-bar-button mx-md-4 mt-sm-2 mt-md-0 uppercase" aria-label="sign in">Sign in</a>
                 </div>
             </div>
         </nav>
     </header>
+
+    <div class="mx-5 p-5 jumbotron-style rounded">
+        <h1>Browse our Gallery</h1><br>
+        <h4>Your Space, Your Art, Your Story.</h4><br>
+        <p>Click on any artist's name or portfolio to embark on an immersive journey into their creative universe. In their portfolios, you'll find a curated selection of their finest works, along with insightful artist statements and biographies. Learn about their artistic journey, sources of inspiration, and the stories behind the art.</p>
+        <p>Whether you're an art enthusiast, a seasoned collector, or a first-time buyer, our artists' portfolios offer an opportunity to find that perfect piece that speaks to your heart. Feel free to reach out to the artists directly for inquiries, commissions, or to learn more about their creative process.</p>
+      </div>
+
 
     <!-- Trending -->
     <section>
@@ -74,11 +82,11 @@
                                                 dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
                                                 facilisis vel.
                                             </p>
-                                            <div class="col">
+                                            <div class="col d-flex justify-content-between justify-content-lg-center px-2">
                                                 <img src="./assets/images/artist-pic.jpg"
                                                     alt="Image of the artist [Emma Perkins]" class="artist-image">
-                                                <a href="artist-portfolio.html"
-                                                    class="btn btn--border mx-auto pl-3">Emma Perkins</a>
+                                                <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                                    Perkins</a>
                                             </div>
                                         </div>
                                     </div>
@@ -97,11 +105,11 @@
                                                 dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
                                                 facilisis vel.
                                             </p>
-                                            <div class="col">
+                                            <div class="col d-flex justify-content-between justify-content-lg-center px-2">
                                                 <img src="./assets/images/artist-pic.jpg"
                                                     alt="Image of the artist [Emma Perkins]" class="artist-image">
-                                                <a href="artist-portfolio.html"
-                                                    class="btn btn--border mx-auto pl-3">Emma Perkins</a>
+                                                <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                                    Perkins</a>
                                             </div>
                                         </div>
                                     </div>
@@ -120,11 +128,11 @@
                                                 dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
                                                 facilisis vel.
                                             </p>
-                                            <div class="col">
+                                            <div class="col d-flex justify-content-between justify-content-lg-center px-2">
                                                 <img src="./assets/images/artist-pic.jpg"
                                                     alt="Image of the artist [Emma Perkins]" class="artist-image">
-                                                <a href="artist-portfolio.html"
-                                                    class="btn btn--border mx-auto pl-3">Emma Perkins</a>
+                                                <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                                    Perkins</a>
                                             </div>
                                         </div>
                                     </div>
@@ -149,11 +157,11 @@
                                                 dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
                                                 facilisis vel.
                                             </p>
-                                            <div class="col">
+                                            <div class="col d-flex justify-content-between justify-content-lg-center px-2">
                                                 <img src="./assets/images/artist-pic.jpg"
                                                     alt="Image of the artist [Emma Perkins]" class="artist-image">
-                                                <a href="artist-portfolio.html"
-                                                    class="btn btn--border mx-auto pl-3">Emma Perkins</a>
+                                                <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                                    Perkins</a>
                                             </div>
                                         </div>
                                     </div>
@@ -172,11 +180,11 @@
                                                 dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
                                                 facilisis vel.
                                             </p>
-                                            <div class="col">
+                                            <div class="col d-flex justify-content-between justify-content-lg-center px-2">
                                                 <img src="./assets/images/artist-pic.jpg"
                                                     alt="Image of the artist [Emma Perkins]" class="artist-image">
-                                                <a href="artist-portfolio.html"
-                                                    class="btn btn--border mx-auto pl-3">Emma Perkins</a>
+                                                <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                                    Perkins</a>
                                             </div>
                                         </div>
                                     </div>
@@ -195,11 +203,11 @@
                                                 dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
                                                 facilisis vel.
                                             </p>
-                                            <div class="col">
+                                            <div class="col d-flex justify-content-between justify-content-lg-center px-2">
                                                 <img src="./assets/images/artist-pic.jpg"
                                                     alt="Image of the artist [Emma Perkins]" class="artist-image">
-                                                <a href="artist-portfolio.html"
-                                                    class="btn btn--border mx-auto pl-3">Emma Perkins</a>
+                                                <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                                    Perkins</a>
                                             </div>
                                         </div>
                                     </div>
@@ -221,7 +229,7 @@
                 </div>
             </div>
             <div class="d-grid gap-2">
-                <button class="btn btn--border btn-lg col-6 mb-5 mx-auto btn--solid" type="button" aria-label="See more">See
+                <button class="btn btn-lg col-6 mb-5 mx-auto btn--solid" type="button" aria-label="See more">See
                     More</button>
             </div>
         </div>
@@ -400,7 +408,7 @@
                 </span>
             </div>
             <div class="d-grid gap-2">
-                <button class="btn btn--border btn-lg col-6 mb-5 mx-auto uppercase btn--solid" type="button" aria-label="See more">See
+                <button class="btn btn-lg col-6 mb-5 mx-auto uppercase btn--solid" type="button" aria-label="See more">See
                     More</button>
             </div>
         </div>
@@ -575,7 +583,7 @@
                 </div>
             </div>
             <div class="d-grid gap-2">
-                <button class="btn btn--border btn-lg col-6 mb-5 mx-auto btn--solid" type="button" aria-label="See more">See
+                <button class="btn btn-lg col-6 mb-5 mx-auto btn--solid" type="button" aria-label="See more">See
                     More</button>
             </div>
         </div>
@@ -590,20 +598,21 @@
                         class="img-fluid price-range--pic">
                 </div>
             </div>
-            <div class="col-md-6 my-auto">
+            <div class="col-md-6">
                 <div class="d-grid gap-2 col-md-8 mr-auto">
-                    <h2 class="text-center mb-5">Price Range</h2>
-                    <button class="btn btn-light btn-lg" type="button">£100 - £1000 </button>
-                    <button class="btn btn-light btn-lg" type="button">Button</button>
-                    <button class="btn btn-light btn-lg" type="button">Button</button>
-                    <button class="btn btn-light btn-lg" type="button">Button</button>
+                    <h4 class="text-center">Prefer to browse by price?</h4>
+                    <h5 class="text-center">Price Range:</h5>
+                    <button class="btn btn-light btn-lg btn--solid" type="button">0 - £50</button>
+                    <button class="btn btn-light btn-lg btn--solid" type="button">£50 - £100</button>
+                    <button class="btn btn-light btn-lg btn--solid" type="button">£100 - £150</button>
+                    <button class="btn btn-light btn-lg btn--solid" type="button">£150 +</button>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer-color text-center text-white mt-auto">
+    <footer class="footer-color text-center mt-auto">
         <!-- Grid container -->
         <div class="container-fluid p-4">
             <!-- Section: Social media -->
@@ -640,7 +649,7 @@
             <a href="#top" class="d-lg-none">Back to Top</a><br>
         </div>
         <!-- Copyright -->
-        <div class="text-center p-3" id="copyright">
+        <div class="text-center p-3 uppercase" id="copyright">
             © 2023 Copyright: Arting Around. Website designed by PEBCAK
         </div>
     </footer>

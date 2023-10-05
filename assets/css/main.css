@@ -1,7 +1,7 @@
 /* General styles*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-h1, h2, h3, h3, h5, h6 {
+h1, h2, h3, h3, h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     letter-spacing: 0.05rem;
@@ -10,6 +10,12 @@ h1, h2, h3, h3, h5, h6 {
 
 h1 {
     color: #213555;
+}
+
+h4, h6 {
+    font-family: 'Lato', sans-serif;
+    color: #213555;
+    font-weight: bold;
 }
 
 
@@ -39,11 +45,69 @@ nav a {
     text-transform: uppercase;
 }
 
+/* Navbar Styles */
+.navbar--styling {
+    background-color:#213555;
+    color: #F5EFE7;
+}
+
+.logo {
+    color: #D8C4B6;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+}
+
+.nav-links {
+    color: #F5EFE7;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+}
+
+.nav-links:hover {
+    color: #F5EFE7;
+    text-decoration: underline;
+}
+
+.nav-links-active {
+    color: #F5EFE7;
+    text-decoration: underline;
+}
+
+.nav-links-active:hover {
+    color: #F5EFE7;
+    text-decoration: underline;
+}
+
+.nav-bar-button {
+    border-color: #D8C4B6;
+    font-family: 'Lato', sans-serif;
+    color: #D8C4B6;
+}
+
+.nav-bar-button:hover {
+    border-color: #D8C4B6;
+    font-family: 'Lato', sans-serif;
+    background-color: #D8C4B6;
+    color: #213555;
+}
+
+.burger-button {
+    border-color: #4F709C;
+    background-color: #4F709C    
+}
+
+
+/* Jumbotron */
+.jumbotron-style {
+    background-color: #D8C4B6;
+    margin: 5%;
+}
 
 /* Nav Styles*/
 
 .nav-section{
-    color: #fafafa;
+    color: #F5EFE7;
     background-color: #000;
     margin-bottom: 8rem;
 }
@@ -82,14 +146,20 @@ div > p {
     padding-bottom: 10px;
 }
 
-/* Footer Styles */
-
+/* Checkout Page */
+.form-text {
+    font-family: 'Lato', sans-serif;
+    color: #213555;
+    font-size: 1rem;
+}
 
 /* Buttons */
 
 .btn--solid {
     background-color: #213555;
     color: #F5EFE7;
+    text-transform: uppercase;
+    
 }
 
 .btn--solid:hover {
@@ -100,6 +170,12 @@ div > p {
 .btn--border {
     border-color: #4F709C;
     color:#4F709C;
+}
+
+.btn--border:hover {
+    border-color: #4F709C;
+    background-color:#4F709C;
+    color: #F5EFE7;
 }
 
 .carousel-control {
@@ -113,3 +189,17 @@ div > p {
     color: #F5EFE7;
 }
 
+#copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.price-range--pic {
+    width: 80%;
+}
+
+.artist-image {
+    border-radius: 50%;
+    max-height: 100px;
+    z-index: 1;
+    margin: auto;
+}
