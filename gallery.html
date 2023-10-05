@@ -15,32 +15,36 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <!-- header section -->
-    <header class="container-fluid no-gutters">
-        <div class="row no-gutters">
-            <div class="col-7 col-md-6">
-                <h1>Arting Around</h1>
-            </div>
-            <!--Navbar-->
-            <div class="col-5 col-md-6 no-gutters">
-                <ul class="list-inline nav ml-auto">
-                    <li class="col list-inline-item">
-                        <a href="index.html" aria-label="Go to our home page"><span>Home</span></a>
-                    </li>
-                    <li class="col list-inline-item">
-                        <a href="gallery.html" aria-label="Take a look at our gallery"><span>Gallery</span></a>
-                    </li>
-                    <li class="col list-inline-item">
-                        <a href="checkout.html" aria-label="Checkout your items"><span>Checkout</span></a>
-                    </li>
-                    <li class="col list-inline-item">
-                        <a href="contact.html" aria-label="Contact us"><span>Contact</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
 
-    </header>
+<!-- Navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1>Arting Around</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  aria-label="link to homepage" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="gallery.html" aria-label="Visit our gallery" aria-current="page">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-label="Checkout your items" href="checkout.html">Checkout</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light btn-sm" type="submit">Search</button>
+            </form>
+            <a href="signed-in.html" class="btn btn-outline-light mx-md-4 mt-sm-2 mt-md-0">Sign in</a>
+          </div>
+        </div>
+    </nav>
+</header>
 
     <!-- Trending -->
     <div class="container-fluid pb-5">
@@ -609,7 +613,7 @@
         </div>
         <!-- Copyright -->
         <div class="text-center p-3" id="copyright">
-            © 2023 Copyright: Artin Around. Website designed by PEBCAK
+            © 2023 Copyright: Arting Around. Website designed by PEBCAK
         </div>
     </footer>
 
