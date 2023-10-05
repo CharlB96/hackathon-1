@@ -1,5 +1,40 @@
 /* General styles*/
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 a {
     text-decoration: none;
+}
+
+.nav-section {
+    color: #fafafa;
+    background-color: #000;
+    margin-bottom: 8rem;
+}
+
+
+/* Nav Styles*/
+
+.nav-section{
+    color: #fafafa;
+    background-color: #000;
+    margin-bottom: 8rem;
+}
+
+/*Body Styles*/
+
+body {
+    min-height: 100vh;
+}
+
+/* Footer Styles */
+
+footer {
+    color: #fafafa;
+    background-color: #000;
+    margin-top: auto;
 }

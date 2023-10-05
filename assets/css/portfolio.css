@@ -6,12 +6,6 @@
     border: 0;
 }
 
-.nav-section {
-    color: #fafafa;
-    background-color: #000;
-    margin-bottom: 8rem;
-}
-
 .artist-portfolio-card {
     background-color: #ced5db;
     border-radius: 8px;
@@ -60,8 +54,12 @@
 .art-display-container {
     display: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     gap: 0;
+}
+
+.portfolio-features h2 {
+    margin: 2rem auto;
 }
 
 .art-card {
