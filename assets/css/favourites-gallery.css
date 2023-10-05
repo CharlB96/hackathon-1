@@ -1,0 +1,17 @@
+nav {
+    margin-bottom: 2rem;
+}
+
+section {
+    gap: 0;
+}
+
+.favourites-gallery-images {
+    line-height: 0;
+}
+
+.favourites-gallery-images img {
+    width: 100%;
+    line-height: 1em;
+
+}
