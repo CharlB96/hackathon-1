@@ -43,6 +43,10 @@ body {
     min-height: 100vh;
 }
 
+img {
+    border-radius: 8px;
+}
+
 /*Carousel styles*/
 
 .artist-image {
@@ -50,6 +54,15 @@ body {
     max-height: 100px;
     z-index: 1;
     margin: auto;
+}
+
+/*Callout styles*/
+
+.callout-color {
+    background-color: rgba(250, 216, 22, 0.666);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Footer Styles */
