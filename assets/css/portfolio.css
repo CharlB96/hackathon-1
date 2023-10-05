@@ -1,1 +1,90 @@
 @import url(main.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.artist-portfolio-card {
+    background-color: #ced5db;
+    border-radius: 8px;
+    position: relative;
+    margin: auto;
+    text-align: center;   
+    padding: 1.7rem;
+    margin-bottom: 1rem;
+    max-width: 1280px;
+}
+
+.artist-portfolio-content {
+    position: relative; 
+    padding-top: 12.5rem;
+}
+
+.artist-image {
+    position: absolute;
+    border-radius: 50%;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+    border: 5px #ced5db solid;
+    z-index: 1;
+}
+
+.artist-portfolio-socials {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* Cards */
+
+
+.artist-portfolio-card-container {
+    display: flex;
+}
+
+.art-display-container {
+    display: center;
+    width: 100%;
+    max-width: 400px;
+    gap: 0;
+}
+
+.portfolio-features h2 {
+    margin: 2rem auto;
+}
+
+.art-card {
+    background-color: #ced5db;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.art-card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.art-card-info {
+    padding: 0.25rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .artist-portfolio-card {
+        margin: auto 5rem;
+        font-size: 1.2rem;
+    }
+
+
+
+}
