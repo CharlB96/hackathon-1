@@ -47,6 +47,11 @@ img {
     border-radius: 8px;
 }
 
+div > h5,
+div > p {
+    padding-top: 10px;
+}
+
 /*Carousel styles*/
 
 .artist-image {
