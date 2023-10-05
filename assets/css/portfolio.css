@@ -82,6 +82,20 @@ nav {
 }
 
 
+/* Blog Section */
+
+
+.blog-cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem;
+}
+
+.card-body {
+    background-color: #ced5db;
+}
+
+
 @media screen and (min-width: 768px) {
 
     .artist-portfolio-card {
