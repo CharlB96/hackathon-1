@@ -11,3 +11,10 @@
 .bkgr-cl {
     background-color: #ced5db
 }
+
+.fav-text h3, 
+.fav-text h4, 
+.fav-text h5{
+    padding: 10px 20px 10px 20px;
+    
+}
