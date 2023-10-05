@@ -1,2 +1,13 @@
 @import url(main.css);
 
+#follow-container {
+    padding: 0;
+}
+
+.follow-box div {
+    border-radius: 8px;
+}
+
+.bkgr-cl {
+    background-color: #ced5db
+}
