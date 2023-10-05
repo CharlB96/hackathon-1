@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/89fa774aea.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Home</title>
@@ -78,58 +81,187 @@
     </section>
 
     <hr>
+    <!--Carousel-->
+    <div class="container-fluid bg-info pb-5">
+        <h1 class="text-center my-5">Trending</h1>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner my-5">
+                <!-- item -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                                        class="card-img-top" alt="Waterfall" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                                        class="card-img-top" alt="Sunset Over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+                                        class="card-img-top" alt="Sunset over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top" alt="Fissure in Sandstone" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+                                        class="card-img-top" alt="Storm Clouds" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+                                        class="card-img-top" alt="Hot Air Balloons" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev btn-outline-secondary" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btn-outline-secondary" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-label="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-light btn-lg col-6 mb-5 mx-auto" type="button" aria-label="See more">See
+                More</button>
+        </div>
+    </div>
+
+    <hr>
+    <!--Highlighted art-->
     <section class="container no-gutters">
-        <h2>Highlighted artists</h2>
+        <h2>Highlighted art</h2>
         <div class="row no-gutters">
             <div class="col-lg-3 col-md-6 col-12">
-                <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                    alt="A field of sheep">
-                    <p>Insert piece of information here</p>
+                <img class="img-fluid" src="assets/images/vangoghmuseum-s0016V1962-800.jpg"
+                    alt="Van Gogh self portrait">
+                <h5>Vincent van Gogh</h5>
+                <p>Deceased</p>
             </div>
             <div class="col-lg-3 col-md-6 col-12 ">
-                <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                    alt="A field of sheep">
-                    <p>Insert piece of information here</p>
+                <img class="img-fluid" src="assets/images/JMWTurner.jpg" alt="The fighting temeraire">
+                <h5>J.M.W.Turner</h5>
+                <p>Deceased</p>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
-                <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                    alt="A field of sheep">
-                    <p>Insert piece of information here</p>
+                <img class="img-fluid" src="assets/images/dali.jpg" alt="The persistence of memory">
+                <h5>Salvador Dali</h5>
+                <p>Deceased</p>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
-                <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                    alt="A field of sheep">
-                    <p>Insert piece of information here</p>
+                <img class="img-fluid" src="assets/images/andy-warhol-marilyn-diptych-and-mao-paintings.jpg"
+                    alt="Shot Marilyns">
+                <h5>Andy Warhol</h5>
+                <p>Deceased</p>
             </div>
         </div>
     </section>
 
     <hr>
-
+    <!--Featured artists-->
     <section>
         <section class="container no-gutters">
             <h2>Featured artists</h2>
             <div class="row no-gutters">
                 <div class="col-lg-3 col-md-6 col-12">
-                    <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                        alt="A field of sheep">
-                        <p>Insert piece of information here</p>
+                    <img class="img-fluid" src="assets/images/artist-pic.jpg" alt="Emma perkins' photo">
+                    <h5>Emma Perkins</h5>
+                    <p>Photographer - Alive</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12 ">
-                    <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                        alt="A field of sheep">
-                        <p>Insert piece of information here</p>
+                    <img class="img-fluid" src="assets/images/damien.jpg" alt="Damien hirst's photo">
+                    <h5>Damien hirst</h5>
+                    <p>Known weirdo - Alive</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                        alt="A field of sheep">
-                        <p>Insert piece of information here</p>
+                    <img class="img-fluid" src="assets/images/picasso-portrait-galeries-bartoux.jpg"
+                        alt="Pablo Picasso's photo">
+                    <h5>Pablo Picasso</h5>
+                    <p>Spanish - Deceased</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <img class="img-fluid" src="assets/images/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg"
-                        alt="A field of sheep">
-                        <p>Insert piece of information here</p>
+                    <img class="img-fluid" src="assets/images/Davinci.jpg" alt="Leonardo Da Vinci's portrait">
+                    <h5>Leonardo Da Vinci</h5>
+                    <p>Inventor - Deceased</p>
                 </div>
             </div>
         </section>
@@ -138,49 +270,48 @@
 
     <hr>
 
-    <footer class="container-fluid mt-auto">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">
-                    Website Designed by PEBCAK
-                </p>
-            </div>
-
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white mt-auto">
+        <!-- Grid container -->
+        <div class="container-fluid p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook"></i><span class="sr-only">Facebook</span></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a>
+            </section>
+            <!--Newsletter sign up -->
+            <form>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline form-white mb-4">
+                            <input type="email" class="form-control" placeholder="email address" aria-label="Email">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-outline-light mb-4">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <a href="#top" class="d-lg-none">Back to Top</a><br>
         </div>
-        <!--------------------Social media links------------------------>
-        <div class="col-sm-4">
-            <h5 class="uppercase general-sub">Social</h5>
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a href="http://www.facebook.com/" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="http://www.twitter.com" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="http://www.instagram.com" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://youtube.com/" target="_blank">
-                        <i class="fa fa-youtube" aria-hidden="true"></i>
-                        <span class="sr-only">Youtube</span>
-                    </a>
-                </li>
-            </ul>
+        <!-- Copyright -->
+        <div class="text-center p-3" id="copyright">
+            © 2023 Copyright: Artin Around. Website designed by PEBCAK
         </div>
-
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
