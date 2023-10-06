@@ -83,14 +83,7 @@ That said we did take steps afterwards to confirm that we had managed to stay on
 
 ### Validator Testing
 
-!!! These links need to be updates !!!
-
-- HTML
-    - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-    - [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-
-!!! These links need to be updates !!!
+HTML and CSS was checked via the appropriate validators however no URL was provided at time of testing.
 
 ### Unfixed Bugs
 
