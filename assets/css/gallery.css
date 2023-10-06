@@ -5,7 +5,7 @@
 }
 
 .price-range--pic {
-    width: 80%;
+    width: 100%;
 }
 
 .artist-image {
@@ -13,4 +13,14 @@
     max-height: 100px;
     z-index: 1;
     margin: auto;
+}
+
+.card-h {
+    height: 100%;
+}
+
+.card-text {
+}
+
+.card-box {
 }
