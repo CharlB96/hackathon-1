@@ -94,7 +94,8 @@ That said we did take steps afterwards to confirm that we had managed to stay on
 
 ### Unfixed Bugs
 
-TBC
+Gallery - As the text is different the cards change size and the see more button moves around
+Signed in page - Favourite artist section not correctly responsive
 
 ## Deployment
 
