@@ -61,7 +61,6 @@ nav {
 }
 
 .art-display-container {
-    display: center;
     width: 100%;
     max-width: 400px;
     gap: 0;
@@ -112,7 +111,5 @@ nav {
         margin: auto 5rem;
         font-size: 1.2rem;
     }
-
-
 
 }
