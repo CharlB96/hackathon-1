@@ -101,6 +101,10 @@ nav {
     background-color: #D8C4B6;
 }
 
+.blog-card {
+    width: 18rem;
+}
+
 
 @media screen and (min-width: 768px) {
 
