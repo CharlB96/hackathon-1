@@ -11,8 +11,6 @@ nav {
 }
 
 .artist-portfolio-card {
-    background-color: #ced5db;
-    border-radius: 8px;
     position: relative;
     margin: auto;
     text-align: center;   
@@ -35,7 +33,7 @@ nav {
     max-height: 300px;
     width: auto;
     max-width: 100%;
-    border: 5px #ced5db solid;
+    border: 5px #D8C4B6 solid;
     z-index: 1;
 }
 
@@ -45,6 +43,13 @@ nav {
     justify-content: space-around;
 }
 
+.icon-style {
+    color: #213555;
+}
+
+.icon-style:hover {
+    color: #4F709C;
+}
 
 
 
@@ -67,7 +72,7 @@ nav {
 }
 
 .art-card {
-    background-color: #ced5db;
+    background-color: #D8C4B6;
     border-radius: 8px;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -93,7 +98,11 @@ nav {
 }
 
 .card-body {
-    background-color: #ced5db;
+    background-color: #D8C4B6;
+}
+
+.blog-card {
+    width: 18rem;
 }
 
 
