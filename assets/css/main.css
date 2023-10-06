@@ -35,6 +35,11 @@ h1 {
     font-weight: bold;
 }
 
+.art-card-h3 {
+    color: #213555;
+    font-weight: bold;  
+}
+
 
 p {
     font-family: 'Lato', sans-serif;
