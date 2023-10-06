@@ -9,7 +9,6 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/signed-in.css">
     <title>Home</title>
 </head>
@@ -17,50 +16,55 @@
 <body class="d-flex flex-column min-vh-100">
     <!--Header-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><h1>Arting Around</h1></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active"  aria-label="link to homepage" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gallery.html" aria-label="Visit our gallery" aria-current="page">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-label="Checkout your items" href="checkout.html">Checkout</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-light btn-sm" type="submit">Search</button>
-                </form>
-                <a href="index.html" class="btn btn-outline-light mx-md-4 mt-sm-2 mt-md-0">Sign out</a>
+            <nav class="navbar navbar-expand-lg navbar--styling">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="logo">Arting Around</h1>
+                    </a>
+                    <button class="navbar-toggler burger-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link uppercase nav-links" aria-label="link to homepage" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link uppercase nav-links" href="gallery.html" aria-label="Visit our gallery"
+                                    aria-current="page">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link uppercase nav-links" aria-label="Checkout your items" href="checkout.html">Checkout</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn nav-bar-button uppercase mx-md-4" type="submit">Search</button>
+                      </form>
+                      <a href="index.html" class="btn nav-bar-button mx-4 mt-sm-2 mt-md-0 uppercase" aria-label="sign out">Sign out</a>
+                  </div>
               </div>
-            </div>
-        </nav>
+            </nav>
     </header>
 
-    <br>
-
+    <!-- Jumbotron section -->
     <section>
-        <div class="py-14 ">
-            <div class="container callout-color">
+        <div class="my-5">
+            <div class="mx-5 p-5 jumbotron-style rounded">
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-md-12 col-12 text-center">
-                        <span class="fs-4 text-success ls-md text-uppercase
-                            fw-semibold">Arting around: An online art museum.</span>
+                        <span class="fs-4 text-uppercase ls-md text-uppercase
+                            fw-semibold jumbo-h4">Arting around: Exploring Creativity, One Portfolio at a Time.</span>
                         <!-- heading  -->
-                        <h2 class="display-6 mt-4 mb-3 fw-bold d-none d-sm-block">Welcome to your home page!
+                        <h2 class="display-6 mt-4 mb-3 fw-bold d-none d-sm-block">Welcome back Richey!</h2>
                         <!-- para  -->
-                        <p class="lead px-lg-8 mb-6">Help support small time artists by purchasing prints of their work.
+                        <p class="lead px-lg-8 mb-6">Your presence enriches our creative community, and we're excited to share more inspiring art with you. As you navigate through our artists' portfolios and explore their captivating works, remember that you're not just a visitor; you're an essential part of what makes this platform come alive.
                         </p>
-                        <a href="artist-portfolio.html" class="btn btn-success">Head to your favourite artist</a>
-                        <a href="favourites-gallery.html" class="btn btn-success">Click here for your favourties page</a>
+                        <br>
+                        <a href="artist-portfolio.html" class="btn btn--solid m-4">Favourite artists</a>
+                        <a href="favourites-gallery.html" class="btn btn--solid m-4">favourite artworks</a>
                     </div>
                 </div>
             </div>
@@ -70,9 +74,9 @@
     <hr>
 
     <!--Followed artists-->
-    <section class="container follow-box">
-        <h2>Pieces by artists followed by you!</h2>
-        <div class="row no-gutters border border-secondary bkgr-cl">
+    <section class="container follow-box py-5">
+        <h2 class="uppercase my-5">Pieces by artists you follow</h2>
+        <div class="row bkgr-cl">
             <div class="col-lg-3 col-md-4 col-12" id="follow-container">
                 <a href="artist-portfolio.html" aria-label="Links to Emma perkins' profile"><img class="img-fluid" src="assets/images/artist-pic.jpg" alt="Emma perkins' photo"></a>
             </div>
@@ -82,7 +86,8 @@
                 <h3>When I'm not snapping photos, I like to go out and snap some necks!</h3>
             </div>
         </div>
-        <div class="row no-gutters border border-secondary bkgr-cl">
+        <br>
+        <div class="row bkgr-cl">
             <div class="col-lg-9 col-md-8 d-md-block d-none text-end fav-text">
                 <h5>Hubert Cumberdale</h5>
                 <h4>Puppeteer</h4>
@@ -92,10 +97,11 @@
                 <img class="img-fluid" src="assets/images/Hide_the_Pain_Harold_(András_Arató).jpg" alt="Hubert cumberdale's photo">
             </div>
         </div>
-        <div class="row no-gutters border border-secondary bkgr-cl">
+        <br>
+        <div class="row bkgr-cl">
             <div class="col-lg-3 col-md-4 col-12" id="follow-container">
                 <img class="img-fluid" src="assets/images/Bild-Ottavio_Leoni,_Caravaggio.jpg" alt="Caravaggio's portrait">
-            </div>
+            </div> 
             <div class="col-lg-9 col-md-8 col-12 fav-text">
                 <h5>Caravaggio</h5>
                 <h4>Painter</h4>
@@ -106,8 +112,8 @@
 
     <hr>
 
-    <section class="container no-gutters">
-        <h2>Highlighted art</h2>
+    <section class="container no-gutters py-5">
+        <h2 class="uppercase my-5">Highlighted art</h2>
         <div class="row no-gutters">
             <div class="col-lg-3 col-md-6 col-12">
                 <img class="img-fluid" src="assets/images/vangoghmuseum-s0016V1962-800.jpg"
@@ -138,7 +144,7 @@
 
 <!--Carousel-->
 <div class="container-fluid pb-5">
-    <h1 class="text-center my-5">Trending</h1>
+   
     <div id="carousel1" class="carousel slide">
         <div class="carousel-inner my-5">
             <!-- item -->
@@ -305,11 +311,192 @@
     </div>
 </div>
 
+<div class="container-fluid pb-5">
+    <h2 class="text-center uppercase my-5">What other people are viewing</h2>
+    <div id="carousel1" class="carousel slide">
+        <div class="carousel-inner my-5">
+            <!-- item -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+                                    class="card-img-top" alt="Storm Clouds">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dramatic Clouds</h5>
+                                    <p class="card-text">
+                                        Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                        facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                        bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                        dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                        facilisis vel.
+                                    </p>
+                                    <div class="col d-flex justify-content-between justify-content-lg-center px-2">
+                                        <img src="./assets/images/artist-pic.jpg"
+                                            alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                        <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                            Perkins</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                    class="card-img-top" alt="Fissure in Sandstone">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cave Hole</h5>
+                                    <p class="card-text">
+                                        Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                        facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                        bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                        dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                        facilisis vel.
+                                    </p>
+                                    <div class="col d-flex justify-content-between justify-content-lg-center px-2">
+                                        <img src="./assets/images/artist-pic.jpg"
+                                            alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                        <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                            Perkins</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+                                    class="card-img-top" alt="Sunset over the Sea">
+                                <div class="card-body">
+                                    <h5 class="card-title">Eternal Embrace</h5>
+                                    <p class="card-text">
+                                        Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                        facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                        bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                        dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                        facilisis vel.
+                                    </p>
+                                    <div class="col d-flex justify-content-between justify-content-lg-center px-2">
+                                        <img src="./assets/images/artist-pic.jpg"
+                                            alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                        <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                            Perkins</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!-- item -->
+            <div class="carousel-item ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                                    class="card-img-top" alt="Waterfall">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cascading Beauty</h5>
+                                    <p class="card-text">
+                                        Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                        facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                        bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                        dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                        facilisis vel.
+                                    </p>
+                                    <div class="col d-flex justify-content-between justify-content-lg-center px-2">
+                                        <img src="./assets/images/artist-pic.jpg"
+                                            alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                        <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                            Perkins</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                                    class="card-img-top" alt="Sunset Over the Sea">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Tranquility</h5>
+                                    <p class="card-text">
+                                        Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                        facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                        bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                        dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                        facilisis vel.
+                                    </p>
+                                    <div class="col d-flex justify-content-between justify-content-lg-center px-2">
+                                        <img src="./assets/images/artist-pic.jpg"
+                                            alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                        <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                            Perkins</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+                                    class="card-img-top" alt="Hot Air Balloons">
+                                <div class="card-body">
+                                    <h5 class="card-title">Up, up and away</h5>
+                                    <p class="card-text">
+                                        Aliquam eleifend ex at orci ornare, vitae placerat ex efficitur. Morbi
+                                        facilisis sed orci id tempor. Etiam hendrerit eget ante at suscipit. Nam
+                                        bibendum, libero vel rutrum pulvinar, urna velit gravida nunc, venenatis
+                                        dictum mauris purus eu sem. Donec ornare porta sapien, eget mollis nunc
+                                        facilisis vel.
+                                    </p>
+                                    <div class="col d-flex justify-content-between justify-content-lg-center px-2">
+                                        <img src="./assets/images/artist-pic.jpg"
+                                            alt="Image of the artist [Emma Perkins]" class="artist-image">
+                                        <a href="artist-portfolio.html" class="btn btn--border my-auto">Emma
+                                            Perkins</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel controls -->
+    <div class="text-center pb-5">
+        <span>
+            <i class="fa-solid fa-backward fa-lg mx-3 carousel-control" data-bs-target="#carousel1"
+                data-bs-slide="prev">
+                <span class="visually-hidden">Previous</span>
+            </i>
+            <i class="fa-solid fa-forward fa-lg mx-3 carousel-control" data-bs-target="#carousel1"
+                data-bs-slide="next">
+                <span class="visually-hidden">Next</span>
+            </i>
+        </span>
+    </div>
+
+    <div class="d-grid gap-2">
+        <button class="btn btn--solid btn-lg col-6 mb-5 mx-auto" type="button" aria-label="See more">See
+            More</button>
+    </div>
+</div>
+
     <hr>
 
     <section>
         <section class="container no-gutters">
-            <h2>Featured artists</h2>
+            <h2 class="uppercase my-5">Featured artists</h2>
             <div class="row no-gutters">
                 <div class="col-lg-3 col-md-6 col-12">
                     <img class="img-fluid" src="assets/images/artist-pic.jpg" alt="Emma perkins' photo">
@@ -334,12 +521,11 @@
                 </div>
             </div>
         </section>
+
     </section>
 
-    <br>
-
     <!-- Footer -->
-    <footer class="bg-dark text-center text-white mt-auto">
+    <footer class="footer-color text-center mt-auto">
         <!-- Grid container -->
         <div class="container-fluid p-4">
             <!-- Section: Social media -->
@@ -376,8 +562,8 @@
             <a href="#top" class="d-lg-none">Back to Top</a><br>
         </div>
         <!-- Copyright -->
-        <div class="text-center p-3" id="copyright">
-            © 2023 Copyright: Artin Around. Website designed by PEBCAK
+        <div class="text-center p-3 uppercase" id="copyright">
+            © 2023 Copyright: Arting Around. Website designed by PEBCAK
         </div>
     </footer>
 
