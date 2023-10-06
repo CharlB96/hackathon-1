@@ -104,6 +104,13 @@ nav a {
     margin: 5%;
 }
 
+/* Homepage image */
+.gallery {
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+}
+
 /* Nav Styles*/
 
 .nav-section{
@@ -159,7 +166,6 @@ div > p {
     background-color: #213555;
     color: #F5EFE7;
     text-transform: uppercase;
-    
 }
 
 .btn--solid:hover {
